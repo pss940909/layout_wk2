@@ -233,6 +233,29 @@ img {
   width: 100px;
 }
 
+.social-media {
+  border-radius: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.discord {
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/discord.png?raw=true");
+}
+
+.instagram {
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/instagram.png?raw=true");
+}
+
+.message {
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/message.png?raw=true");
+}
+
+.social-media:hover {
+  box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
 .py-96 {
   padding-top: 96px;
   padding-bottom: 96px;
@@ -240,6 +263,10 @@ img {
 
 .w-162 {
   width: 162px;
+}
+
+.h-162 {
+  height: 162px;
 }
 
 .w-162 img {

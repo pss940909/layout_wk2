@@ -289,6 +289,10 @@ img {
   width: calc(86px * 8 + 24px * 7);
 }
 
+.align-self-start {
+  align-self: flex-start;
+}
+
 /* footer */
 
 .py-40 {

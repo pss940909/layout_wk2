@@ -44,8 +44,16 @@ img {
 }
 
 /* margin-bottom */
+.mb-16 {
+  margin-bottom: 16px;
+}
+
 .mb-24 {
   margin-bottom: 24px;
+}
+
+.mb-28 {
+  margin-bottom: 28px;
 }
 
 .mb-36 {
@@ -197,7 +205,7 @@ img {
   color: #15161d;
 }
 
-.textt-black {
+.text-black {
   color: #000;
 }
 
@@ -242,5 +250,25 @@ img {
 }
 
 /* my project */
+.col-7 {
+  width: calc(86px * 7 + 24px * 6);
+}
+
+.align-self-end {
+  align-self: flex-end;
+}
+
+.col-8 {
+  width: calc(86px * 8 + 24px * 7);
+}
 
 /* footer */
+
+.py-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.text-center {
+  text-align: center;
+}
